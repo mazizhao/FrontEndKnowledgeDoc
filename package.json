@@ -1,0 +1,27 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazizhao/FrontEndKnowledgeDoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazizhao/FrontEndKnowledgeDoc/issues"
+  },
+  "homepage": "https://github.com/mazizhao/FrontEndKnowledgeDoc#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.9.1",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4"
+  }
+}
