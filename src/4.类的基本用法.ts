@@ -13,14 +13,14 @@ class Circle {
   let circle = new Circle(100);
   console.log(circle);
   
-  // 类的修饰符  public (公开的 我自己、我的儿子、外界)  protected (受保护的 我自己、我的儿子)  private（私有的 private）
+  // 类的修饰符  public (公开的 我自己、我的儿子、外界)  protected(受保护的 我自己、我的儿子)  private（私有的 private）
   // readonly 仅读的
   
   class Animal {
     //   public name!: string;
     //   public age!: number;
     constructor(public readonly name: string, public age: number) {
-      // 直接在参数中添加 public prvitate protected 这些属性会默认添加到实例
+      // 直接在参数中添加 public private protected 这些属性会默认添加到实例
       // this.name = name;
       // this.age = age;
       this.name = "abc"; // 因为在构造函数中是初始化阶段 readonly的值是可以修改的
